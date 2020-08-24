@@ -1,6 +1,6 @@
 {
   "name": "thau-react",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0",
   "description": "Thau React client.",
   "repository": "https://github.com/thau-quester/thau-react",
   "license": "MIT",
@@ -40,11 +40,11 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.2",
     "rollup-plugin-typescript2": "^0.27.1",
+    "thau-js": "^0.1.1",
     "ts-jest": "^25.5.1",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "~3.7.2",
-    "thau-js": "^0.1.1"
+    "typescript": "~3.7.2"
   },
   "jest": {
     "roots": [
