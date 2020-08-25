@@ -22,11 +22,12 @@ const useLoginWithPassword: () => [
         throw new ThauError('Client is not initialized')
       }
       session = await thau.client.loginWithPassword(email, password)
+      setLoading(false)
       thau.setSession(session)
     } catch (e) {
+      setLoading(false)
       setError(e)
     }
-    setLoading(false)
     return session
   }
 

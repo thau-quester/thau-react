@@ -22,11 +22,12 @@ const useLoginWithGoogle: () => [
         throw new ThauError('Client is not initialized')
       }
       session = await thau.client.loginWithGoogle()
+      setLoading(false)
       thau.setSession(session)
     } catch (e) {
+      setLoading(false)
       setError(e)
     }
-    setLoading(false)
     return session
   }
 

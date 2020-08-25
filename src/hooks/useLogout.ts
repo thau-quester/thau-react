@@ -18,11 +18,12 @@ const useLogout: () => [State, () => Promise<void>] = () => {
         throw new ThauError('Client is not initialized')
       }
       await thau.client.logout()
+      setLoading(false)
       thau.setSession(undefined)
     } catch (e) {
+      setLoading(false)
       setError(e)
     }
-    setLoading(false)
   }
 
   return [{ loading, error }, logout]
