@@ -21,7 +21,7 @@ jobs:
       uses: actions/setup-node@master
       with:
         node-version: 14.4.0
-    - name: Test Thau JS
+    - name: Test Thau React
       run: |
         yarn
         yarn lint
@@ -37,7 +37,7 @@ jobs:
       uses: actions/setup-node@master
       with:
         node-version: 14.4.0
-    - name: Build and Push the Thau JS package
+    - name: Build and Push the Thau React package
       run: |
         echo "registry //registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISH_TOKEN }}" > .yarnrc
         echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISH_TOKEN }}" > .npmrc
