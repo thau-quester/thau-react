@@ -17,6 +17,9 @@
     "watch": "rollup -cw",
     "postpublish": "git push --tags && git push && echo \"Successfully released version $npm_package_version!\""
   },
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "react": "^16.8.1",
     "thau-js": "^0.1.1"
