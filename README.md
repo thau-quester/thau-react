@@ -1,4 +1,4 @@
-# react-thau
+# thau-react
 
 React wrapper around Thau API
 
