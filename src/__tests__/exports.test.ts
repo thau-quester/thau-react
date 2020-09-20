@@ -4,6 +4,7 @@ const EXPECTED_EXPORT = [
   'ThauProvider',
   'useCreateUserWithPassword',
   'useLoginWithFacebook',
+  'useLoginWithGithub',
   'useLoginWithGoogle',
   'useLoginWithPassword',
   'useLogout',
