@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { thauContext } from '../context'
-import { ThauError, Session } from 'thau-js'
+import { ThauError } from 'thau-js'
 
 export type State = {
   loading: boolean
@@ -8,7 +8,7 @@ export type State = {
 }
 const useLoginWithGithub: () => [
   State,
-  () => Promise<Session | undefined>
+  () => Promise<void>
 ] = () => {
   const thau = React.useContext(thauContext)
   const [loading, setLoading] = React.useState(false)
@@ -16,7 +16,6 @@ const useLoginWithGithub: () => [
 
   const createUserWithGithub = async () => {
     setLoading(true)
-    let session
     try {
       if (!thau.client) {
         throw new ThauError('Client is not initialized')
@@ -26,7 +25,6 @@ const useLoginWithGithub: () => [
       setLoading(false)
       setError(e)
     }
-    return session
   }
 
   return [{ loading, error }, createUserWithGithub]
