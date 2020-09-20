@@ -21,7 +21,7 @@ Wrap your application with `ThauProvider`:
 import { ThauProvider } from 'react-thau'
 
 export default function App() {
-  <ThauProvider thauUrl="http://localhost:9000">
+  <ThauProvider thauUrl="http://localhost:9000/api/v1">
     ...
   </ThauProvider>
 }
@@ -33,5 +33,6 @@ And now down in the tree you can use any of the available exported hooks (see do
 * `useSession()`
 * `useLoginWithFacebook()`
 * `useLoginWithGoogle()`
+* `useLoginWithGithub()`
 * `useLoginWithPassword()`
 * `useLogout()`
