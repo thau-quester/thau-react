@@ -7,6 +7,7 @@ const EXPECTED_EXPORT = [
   'useLoginWithGithub',
   'useLoginWithGoogle',
   'useLoginWithPassword',
+  'useLoginWithTwitter',
   'useLogout',
   'useSession',
   'useThau',

@@ -22,7 +22,7 @@
   ],
   "peerDependencies": {
     "react": "^16.8.1",
-    "thau-js": "^0.1.3"
+    "thau-js": "^0.1.4"
   },
   "devDependencies": {
     "@testing-library/react": "^10.0.4",
@@ -43,7 +43,7 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.2",
     "rollup-plugin-typescript2": "^0.27.1",
-    "thau-js": "0.1.3",
+    "thau-js": "^0.1.4",
     "ts-jest": "^25.5.1",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",

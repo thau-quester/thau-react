@@ -6,10 +6,7 @@ export type State = {
   loading: boolean
   error?: ThauError
 }
-const useLoginWithGithub: () => [
-  State,
-  () => Promise<void>
-] = () => {
+const useLoginWithGithub: () => [State, () => Promise<void>] = () => {
   const thau = React.useContext(thauContext)
   const [loading, setLoading] = React.useState(false)
   const [error, setError] = React.useState<ThauError>()
