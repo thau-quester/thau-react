@@ -31,6 +31,7 @@ And now down in the tree you can use any of the available exported hooks (see do
 * `useThau()`
 * `useCreateUserWithPassword()`
 * `useSession()`
+* `useOpenSessions()`
 * `useLoginWithFacebook()`
 * `useLoginWithGoogle()`
 * `useLoginWithGithub()`

@@ -7,6 +7,7 @@ export { default as useLoginWithFacebook } from './hooks/useLoginWithFacebook'
 export { default as useLoginWithGithub } from './hooks/useLoginWithGithub'
 export { default as useLoginWithTwitter } from './hooks/useLoginWithTwitter'
 export { default as useLoginWithLinkedIn } from './hooks/useLoginWithLinkedIn'
+export { default as useOpenSessions } from './hooks/useOpenSessions'
 export { default as useLogout } from './hooks/useLogout'
 
 export { default as ThauProvider } from './Provider'
