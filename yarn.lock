@@ -3646,10 +3646,10 @@ test-exclude@^6.0.0:
     glob "^7.1.4"
     minimatch "^3.0.4"
 
-thau-js@0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/thau-js/-/thau-js-0.1.5.tgz#e683e807c7b7d8e9919c2f8e14a4c4fa42bad239"
-  integrity sha512-PUK8D+QZrsn/gt6Y1ihyyjdhCX2El3FPnxtc+c78qf+IIlPPXWg8WAS1UYnkDxF1sFz8/WlZI5x0FyXXzNtxrg==
+thau-js@0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/thau-js/-/thau-js-0.1.6.tgz#3bcada717fa55cdc11d0b1dd8692513c7e2b9dd6"
+  integrity sha512-MACx6pKAlxy4ffjJqPDqbBC9NuQHV1r98zPP3UPsAWxX8aVj6iCLg+iVy1zf7hVMy0HeD3mU9oW+pwQjOkVYWA==
 
 throat@^5.0.0:
   version "5.0.0"

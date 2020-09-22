@@ -10,6 +10,7 @@ const EXPECTED_EXPORT = [
   'useLoginWithPassword',
   'useLoginWithTwitter',
   'useLogout',
+  'useOpenSessions',
   'useSession',
   'useThau',
 ]

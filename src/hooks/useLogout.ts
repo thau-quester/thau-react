@@ -6,18 +6,18 @@ export type State = {
   loading: boolean
   error?: ThauError
 }
-const useLogout: () => [State, () => Promise<void>] = () => {
+const useLogout: () => [State, (sessionId?: number) => Promise<void>] = () => {
   const thau = React.useContext(thauContext)
   const [loading, setLoading] = React.useState(false)
   const [error, setError] = React.useState<ThauError>()
 
-  const logout = async () => {
+  const logout = async (sessionId?: number) => {
     setLoading(true)
     try {
       if (!thau.client) {
         throw new ThauError('Client is not initialized')
       }
-      await thau.client.logout()
+      await thau.client.logout(sessionId)
       setLoading(false)
       thau.setSession(undefined)
     } catch (e) {
