@@ -34,5 +34,7 @@ And now down in the tree you can use any of the available exported hooks (see do
 * `useLoginWithFacebook()`
 * `useLoginWithGoogle()`
 * `useLoginWithGithub()`
+* `useLoginWithTwitter()`
+* `useLoginWithLinkedIn()`
 * `useLoginWithPassword()`
 * `useLogout()`
