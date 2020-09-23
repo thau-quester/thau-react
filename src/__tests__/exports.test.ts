@@ -13,6 +13,7 @@ const EXPECTED_EXPORT = [
   'useOpenSessions',
   'useSession',
   'useThau',
+  "useUserProviders",
 ]
 
 it('Should export all expected fields', () => {
