@@ -5,9 +5,11 @@ on:
     branches: 
       - master
     paths:
-      - '**/*.ts'
-      - '**/*.json'
-      - '**/*.js'
+      - 'src/**/*.ts'
+      - 'src/**/*.json'
+      - 'src/**/*.js'
+      - 'package.json'
+      - 'rollup.config.js'
   pull_request:
     branches:
       - master
