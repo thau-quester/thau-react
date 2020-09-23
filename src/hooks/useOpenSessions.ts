@@ -20,6 +20,7 @@ const useOpenSessions: () => [
 
   const fetchOpenSessions = async () => {
     setLoading(true)
+    setOpenSessions(undefined)
     try {
       if (!thau.client) {
         throw new ThauError('Client is not initialized')
@@ -34,6 +35,10 @@ const useOpenSessions: () => [
       return undefined
     }
   }
+
+  React.useEffect(() => {
+    fetchOpenSessions()
+  }, [])
 
   return [{ loading, error, openSessions }, fetchOpenSessions]
 }
