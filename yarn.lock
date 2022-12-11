@@ -3060,9 +3060,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 react-dom@^16.13.1:
   version "16.13.1"
@@ -3646,10 +3646,10 @@ test-exclude@^6.0.0:
     glob "^7.1.4"
     minimatch "^3.0.4"
 
-thau-js@0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/thau-js/-/thau-js-0.1.7.tgz#92711502c3283861219b14118900f9a49b3f3da2"
-  integrity sha512-Rkhbil45DP6QOExfcZzEQRmG2MOAQYayO3J+HosPRfndk+/Z4eCvJ/cbw1QmL9XMJslM3rZG06qVYLrw2DlKtA==
+thau-js@0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/thau-js/-/thau-js-0.1.9.tgz#cc4d7c92dfd76e4604a8310d7595308ea7d34910"
+  integrity sha512-GrwYznB1dCi7/YWTPFRjfPqsYCdtokJ7/UJTvrD08Lw46IaQM/fJISP/ZJOF6c7+v2iTvWy9IZMqhwaRL164Ww==
 
 throat@^5.0.0:
   version "5.0.0"
